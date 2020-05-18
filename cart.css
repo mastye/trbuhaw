@@ -1,0 +1,154 @@
+#loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -88px;
+	margin-left: -88px;
+	width: 175px;
+	height: 175px;
+}
+#loading img {
+	width: 175px;
+	height: 175px;
+	border: 0;
+}
+  table.tabela_korpa, table.tabela_korpa tr, table.tabela_korpa tr td {
+		border: 0 !important;
+	}
+	
+	table.tabela_korpa {
+		width: 100% !important;
+		margin-bottom: 5px !important;
+		font-size: 14px !important;
+	}
+	
+	table.tabela_korpa tr:hover {
+		background: #eeeeee;
+		cursor: pointer;
+	}
+	
+	table.tabela_korpa tr.zaglavlje:hover  {
+		background: #4EB447 !important;
+	}
+
+	table.tabela_korpa tr.zaglavlje {
+		background: #4EB447 !important;
+		color: #FFFFFF;
+		min-height: 45px;
+	}
+	 
+	 
+	table.tabela_korpa tr td {
+		padding: 5px !important;
+		min-height: 10px;
+		vertical-align: middle;
+		
+	}
+	
+	table.tabela_korpa, table.tabela_korpa tr, table.tabela_korpa tr td {
+		border: 0 !important;
+		border-bottom: 1px solid #4EB447 !important;
+	}
+	
+	table.tabela_korpa tr.zaglavlje, table.tabela_korpa tr.zaglavlje td {
+		border-bottom: 0 !important;
+	}
+	
+	table td, dd {
+		padding: 6px 2px;
+		vertical-align: top;
+		line-height: 1 !important;
+	}
+	
+	.tabela_korpa .delete {
+		text-align: right;
+	}
+	.tabela_korpa .summary {
+		text-align: right;
+	}
+	.tabela_korpa .discount {
+		text-align: right;
+	} 
+	.tabela_korpa .quantity {
+		text-align: right;
+	}
+	.tabela_korpa .pricing {
+		text-align: right;
+	}
+	.tabela_korpa .unit {
+		text-align: left;
+	}
+	.tabela_korpa .product {
+		text-align: left;
+	}
+	.tabela_korpa .code {
+		text-align: left;
+	}
+	.tabela_korpa .num {
+		text-align: left;
+	}
+	
+	.tabela_korpa tr.zaglavlje td.num {
+		border-radius: 5px 0 0 5px;
+	}
+	
+	.tabela_korpa tr.zaglavlje td.delete {
+		border-radius: 0 5px 5px 0;
+	}
+	
+	.tabela_korpa .delete a {
+		display: block;
+		vertical-align: middle;
+	}
+	.tabela_korpa .quantity .qty {
+		max-width: 80px;
+		float: right;
+	}
+	
+	
+	#osn_order_cart, #discount_order_cart, #sum_order_cart, #vat_20_order_cart, #vat_10_order_cart, #total_order_cart {
+		text-align: right;
+		float: right;
+		min-height: 25px;
+		vertical-align: middle;
+	}
+	
+	#all_sum_shopping_cart #tabela_order_sum {
+		width: 40%;
+	}
+	
+
+
+	
+	.ubaceno_u_korpu {
+		display: none;
+		visibility: hidden;
+		color: #cc0000;
+		padding: 2px;
+		text-align: center;
+	}
+	
+	
+	.shopping_cart .link {
+		width: 100%;
+		margin-bottom: 15px;
+		clear: both;
+		display: block;
+		min-height: 30px;
+	}
+	
+	/*****/
+	
+	table.mala_tabela, table.mala_tabela tr, table.mala_tabela tr td {
+		border: 0 !important;
+	}
+	
+	table.mala_tabela {
+		width: 100% !important;
+		margin-bottom: 5px !important;
+	}
+	
+	table.mala_tabela tr td, table.mala_tabela tr  {
+		height: 25px;
+		padding: 5px;
+	}

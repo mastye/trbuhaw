@@ -1,0 +1,51 @@
+.glosa-levo {
+	max-width: 47%;
+	margin-right: 3%;	
+    margin-top: 10px;
+	margin-bottom: 10px;
+    float: left;
+	padding-top: 20px;
+   border-top: 3px solid #4EB447;
+	/*border-bottom: 3px solid #4EB447;*/
+	border-radius: 5px;
+	padding: 30px;
+	background: #f1f1f1;
+}
+
+.glosa-desno {
+	max-width: 47%;
+	margin-left: 3%;
+	
+    margin-top: 10px;
+	margin-bottom: 10px;
+    float: right;
+	padding-top: 0;
+     border-top: 3px solid #4EB447;
+	/*border-bottom: 3px solid #4EB447;*/
+	border-radius: 5px;
+	padding: 30px;
+	background: #f1f1f1;
+}
+
+.slika_levo {
+    max-width: 47%;
+	margin-right: 3%;	
+    margin-top: 10px;
+	margin-bottom: 10px;
+    float: left;
+	padding-top: 0;
+    clear: none;
+    border: 0;
+}
+
+.slika_desno {
+    max-width: 47%;
+	margin-left: 3%;
+	
+    margin-top: 10px;
+	margin-bottom: 10px;
+    float: right;
+	padding-top: 20px;
+    clear: none;
+    border: 0;
+}
