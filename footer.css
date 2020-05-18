@@ -1,0 +1,96 @@
+#podnozje {
+ 	border-top: 1px solid #e1e1e1;
+	background: #f1f1f1;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#dole, #dno {
+
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: none;
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+
+ #dno, #potpis {
+ 	background: #333333;
+	
+ }
+
+
+#potpis {
+		color: #FFFFFF;
+	}
+	
+	#potpis p {
+		line-height: 150%;
+		 
+	}
+	
+	#potpis a {
+	font-weight: normal;
+	
+	}
+	
+	#dole .dole-polje {
+		 
+    float: left;
+    width: calc(25% - 0px);
+ 
+    margin-bottom: 0;
+    padding: 15px;
+	overflow: hidden !important;
+ 
+	}
+	
+	#dole .dole-polje h5 {
+	
+	padding: 15px 0 15px 0;
+    font-size: 18px;
+
+    margin-bottom: 15px;
+    font-weight: normal;
+	border-bottom: 3px solid #4EB447;
+ }
+ 
+ 
+ #dole .dole-polje ul {
+    margin: 0 0 30px 0;
+}
+ 
+  #dole .dole-polje ul li {
+    margin: 0 0 8px 0;
+    padding: 0 0 5px 1px;
+    list-style: inside none square;
+    position: relative;
+	line-height: 150%;
+}
+
+  #dole .dole-polje p {
+  	margin-bottom: 15px;
+  }
+  
+  #dole .dole-polje a {
+  	color: #111111;
+	font-weight: 600;
+	text-decoration: none;
+  }
+  
+  #dole .dole-polje a:hover {
+    text-decoration: underline;
+  }
+ 
+ .copyright {
+ 	float: left;
+	text-align: left;
+ }
+ 
+ .design {
+ 	float: right;
+	text-align: right;
+ }

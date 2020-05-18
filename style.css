@@ -1,0 +1,434 @@
+
+
+#sadrzaj .tekst-podaci .komentari {
+	background: transparent url("komentar.png") left 50% no-repeat;
+	width: 20px;
+	display: inline;
+	padding-left: 24px !important;
+}
+
+#tagovi {
+
+    float: none;
+    width: 100%;
+ 
+    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+	margin-left: 30px;
+}
+
+#tagovi  a.tag  {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 10px 20px;
+    background: #dadada;
+    border: 0;
+    border-radius: 5px;
+    color: #080215 !important;
+    font-weight: normal !important;
+    font-size: 13px;
+    line-height: 26px;
+    text-decoration: none; 
+}
+
+#tagovi  a.tag:hover  {
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	background: #4EB447;
+	color: #FFFFFF !important;
+}
+
+#tagovi p {
+	margin-bottom: 5px;
+}
+
+#tagovi p.naslov {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+ 
+#povezane-vesti {
+    border-top: 1px solid #efefef;
+	 
+    float: none;
+    width: calc(100% - 15px);
+ 
+    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+	margin-left: 15px;
+}
+
+#povezane-vesti h4 {
+	font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#povezane-vesti h4 a:hover, #povezane-vesti h3 a:hover, #preporucene-vesti h3 a:hover {
+    text-decoration: none;
+    color: #4EB447;
+}
+ 
+#povezane-vesti h4 a, #povezane-vesti h3 a, #preporucene-vesti h3 a {
+    color: #333333;
+}
+
+.tekst a:hover {
+	text-decoration: underline;
+}
+
+.polje-povezana-vest {
+	margin: 15px;
+    width: calc(33.33% - 30px);
+	align-items: flex-start;
+	display: block;
+	float: left;
+
+}
+
+.polje-povezana-vest .slika {
+	padding-bottom: 56.25%;
+ 
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    height: 0;
+	width: 100%;	
+}
+
+.polje-povezana-vest .link {
+    position: relative;
+    display: block;
+	width: 100%;
+}
+ 
+ 
+	
+	.polje-povezana-vest h4 {
+	font-size: 15px;
+    line-height: 1.25;
+	}
+	
+	.polje-povezana-vest .tekst {
+		margin-left: 5px;
+	}
+	
+	.polje-povezana-vest p.vreme {
+		font-size: 14px !important;
+		color: #999999;
+		    margin: 10px 0;
+    margin-bottom: 5px !important;
+	line-height: 100% !important;
+	}
+	
+	.polje-povezana-vest .tekst .kategorija-naziv {
+		text-transform: uppercase;
+		color: #999999 !important;
+		text-decoration: none;
+		font-weight: normal !important;
+	}
+	
+	.polje-povezana-vest h3.naslov {
+	font-size: 14px;
+	}
+	
+	
+	#komentari {
+    border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+    float: none;
+    width: calc(100% - 15px);
+ 
+    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+	margin-left: 15px;
+}
+
+#komentari .forma {
+	margin-bottom: 30px;
+	padding-top: 30px;
+	 border-top: 1px solid #efefef;
+}
+
+#komentari h3 {
+padding: 15px 0 15px 0;
+font-size: 24px;
+}
+	
+
+#komentari .polje-komentar {
+	 
+	    padding-top: 30px;
+		width: 100%;
+		border-top: 1px solid #efefef;
+}	
+
+#komentari .polje-komentar h5.komentar-ime-autor {
+	font-size: 24px;
+}
+
+#komentari .polje-komentar .komentar-datum-i-vreme, #komentari .polje-komentar .komentar-status {
+color: #999;
+    font-size: 13px;
+	display: inline;
+	float: right;
+	 
+	
+	}
+	
+	#komentari .polje-komentar .komentar-status img {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	#komentari .polje-komentar .komentar-autor-i-datum   {
+		float: left;
+	}
+	
+	#komentari .polje-komentar .komentar-glasovi {
+		float: right;
+	}
+	
+	
+	#komentari .polje-komentar .komentar-datum {
+	padding-right: 10px;
+	}
+	
+	
+	#komentari .polje-komentar .komentar-vreme {
+	    padding-left: 10px;
+    display: inline-block;
+    line-height: 13px;
+	
+	}
+	
+	#komentari .polje-komentar .komentar-tekst {
+	    margin-top: 15px;
+	font-family: "Open Sans",sans-serif;
+	margin-bottom: 0;
+	
+	font-size: 16px;
+    line-height: 1.6;
+	}
+	
+	
+	#komentari .polje-komentar .komentar-dugme-i-glasovi {
+ 
+	    margin-top: 30px;
+    padding-bottom: 30px;
+	display: block;
+	 width: 100%;
+	 clear: both;
+	}
+	
+	#komentari .polje-komentar .komentar-dugme {
+		float: left;
+	}
+	
+	
+	#komentari .polje-komentar .komentar-za-ikonica, #komentari .polje-komentar .komentar-protiv-ikonica, #komentari .polje-komentar .komentar-zabrana-ikonica {
+		font-size: 28px;
+		background: #f1f1f1;
+		border-radius: 5px;
+		padding: 0 12px 4px 12px;
+		margin-left: 15px;
+		cursor: pointer;
+		font-weight: 400;
+	}
+	
+	#komentari .polje-komentar .komentar-za-ikonica {
+		color: #4EB447;
+	}
+	
+	#komentari .polje-komentar .komentar-za-ikonica:hover {
+		background: #4EB447;
+		color: #FFFFFF;
+	}
+	
+	#komentari .polje-komentar .komentar-protiv-ikonica {
+		color: #DC3545;
+	}
+	
+	#komentari .polje-komentar .komentar-protiv-ikonica:hover {
+		background: #DC3545;
+		color: #FFFFFF;
+	}
+	
+	#komentari .polje-komentar .komentar-zabrana-ikonica, #komentari .polje-komentar .komentar-zabrana-ikonica:hover {
+		background: #cccccc !important;
+		color: #080215 !important;
+	}
+	
+	#komentari .polje-komentar .komentar-za, #komentari .polje-komentar .komentar-protiv {
+		margin-left: 5px;
+		
+	}
+	
+	/***/
+	
+	
+ 
+ #deljenje-ikonice {
+        float: none;
+     width: calc(100% - 30px);
+    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+    margin-left: 30px;
+	clear: both;
+	text-align: right;
+}
+ 
+#deljenje-ikonice .deljenje-ikonica img {
+    padding: 0;
+    margin: 0 8px 8px 0;
+    border: 0;
+    display: inline;
+    float: right;
+	border-radius: 5px;
+}
+	
+	
+#linija-nav {
+	width: calc(100% - 30px);
+	margin: 0 15px  ;
+	padding: 15px;
+	border-bottom: 1px solid  #f1f1f1; 
+}	
+
+#linija-nav span {
+	margin-right: 5px;
+}
+
+/***************/
+#baner {
+	    width: calc(100% - 30px);
+    margin: 0 15px;
+    padding: 15px;
+    border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+
+}
+
+#baner img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin: 0 0 15px 0;
+}
+
+.baner-centar {
+	margin-bottom: 0;
+}
+
+.baner-centar img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0 !important;
+}
+
+.baner-centar a {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 5px 0;	
+	
+}
+
+
+/*****************/
+
+.page-numbers {
+    font-size: 16px;
+    line-height: 1;
+	margin: 30px 8px -1px 0;
+    padding: 12px 16px !important;
+    border: 1px solid #4EB447;
+    display: inline-block;
+	border-radius: 5px;
+}
+
+a.page-numbers {
+    
+    text-shadow: none;
+	
+	border: 1px solid #003300;
+}
+
+a.page-numbers:hover {
+	text-decoration: none !important;
+	background: #003300 !important;
+	color: #FFFFFF !important;
+	
+}
+
+.pagination .current {
+	color: #ffffff !important;
+	background: #4EB447 !important;
+}
+
+.pagination {
+    margin: 0 0 0 0;
+    float: none;
+    padding: 5px 0;
+    overflow: hidden;
+    text-align: center !important;
+}
+
+.loop-pagination {
+    margin-bottom: 30px;
+	width: 100%;
+}
+
+.kategorija-naslov {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.galvna-slika {
+	text-align: center;
+}
+
+/*****************/
+
+.btn-success, .btn-success:hover {
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+}
+
+#komentari .polje-komentari-dugme-levo, #komentari .polje-komentari-dugme-desno {
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: left;
+}
+
+#komentari .polje-komentari-dugme-desno {
+	text-align: right;
+}
+
+.ok_obavestenje {
+    padding: 3%;
+    width: 100%;
+    border-color: #f6fdf3;
+    color: #000000;
+    background: #d0f4c2;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 1% 0 1% 0;
+}
+
+.greska_obavestenje {
+	padding: 3%;
+	width: 100%;
+	color: #FFFFFF;
+	background: #f4c2c3;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #fdf3f3;
+	margin: 1% 0 1% 0;
+}

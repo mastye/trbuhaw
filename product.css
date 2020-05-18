@@ -1,0 +1,307 @@
+#proizvodi {
+    border-top: 1px solid #efefef;
+	 
+    float: none;
+    width: calc(100% - 0px);
+ 
+    margin-bottom: 30px;
+    padding: 15px 0 15px 0;
+	margin-left: 0;
+}
+
+#proizvodi .naslov {
+	text-transform: uppercase;
+}
+
+#proizvodi h2 {
+	padding: 15px 0 15px 0;
+	font-size: 24px;
+}
+
+#proizvodi h2 a:hover, #proizvodi h3 a:hover  {
+    text-decoration: none;
+    color: #4EB447;
+}
+ 
+#proizvodi h2 a, #proizvodi h3 a  {
+    color: #333333;
+}
+
+.tekst a:hover {
+	text-decoration: underline;
+}
+
+.polje-proizvod {
+	margin: 15px;
+    width: calc(33.33% - 30px);
+	align-items: flex-start;
+	display: block;
+	float: left;
+	margin-bottom: 30px !important;
+	position: relative;
+}
+
+.polje-proizvod .slika {
+	padding-bottom: 56.25%;
+ padding-bottom: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    height: 0;
+	width: 100%;
+	border: 1px solid #f7f7f7;
+	
+ 
+}
+
+.polje-proizvod .slika:hover {
+border: 1px solid #4EB447;	
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.polje-proizvod .link {
+    position: relative;
+    display: block;
+	width: 100%;
+}
+ 
+ 
+	
+	.polje-proizvod h4 {
+	font-size: 15px;
+    line-height: 1.25;
+	}
+	
+	.polje-proizvod .tekst {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.polje-proizvod p.vreme {
+		font-size: 14px !important;
+		color: #999999;
+		    margin: 0;
+    margin-bottom: 0 !important;
+	}
+	
+	.polje-proizvod h3.naslov {
+	font-size: 17px;
+	margin-top: 15px;
+	text-align: center;
+	}
+	
+	.polje-proizvod .precrtano {
+		font-size: 90%;
+		text-decoration: line-through;
+		margin-right: 15px;
+	}
+	
+	.polje-proizvod .cena {
+		font-size: 140%;
+		color: #4EB447;
+		font-weight: 600;
+	}
+	
+	.polje-proizvod .valuta {
+		font-size: 70%;
+	}
+	
+	.polje-proizvod .vreme {
+		text-align: center;
+	}
+	
+	 #proizvodi .polje-proizvod .link {
+	 	position: relative;
+	 }
+ 
+ #proizvodi .polje-proizvod .proizvod-akcija-m {
+ 	position: absolute;
+	z-index: 9;
+	top: 5px;
+	right: 5px;
+	background: url("akcija_m.png") 50% 50% no-repeat;
+	width: 60px;
+	height: 60px;
+	display: block;
+ }
+ 
+  #proizvodi .polje-proizvod .proizvod-istaknuto-m {
+ 	position: absolute;
+	z-index: 9;
+	top: 5px;
+	right: 5px;
+	background: url("istaknuto_m.png") 50% 50% no-repeat;
+	width: 60px;
+	height: 60px;
+	display: block;
+ }
+ 
+   #proizvodi .polje-proizvod .proizvod-nedostupno-m {
+ 	position: absolute;
+	z-index: 9;
+	top: 5px;
+	right: 5px;
+	background: url("nedostupno_m.png") 50% 50% no-repeat;
+	width: 60px;
+	height: 60px;
+	display: block;
+ }
+ 
+  #izabrani-proizvod .izabrani-proizvod .proizvod-slika .proizvod-akcija {
+ 	position: absolute;
+	z-index: 9;
+	top: 5px;
+	left: 5px;
+	background: url("akcija.png") 50% 50% no-repeat;
+	width: 90px;
+	height: 90px;
+	display: block;
+ }
+ 
+  #izabrani-proizvod .izabrani-proizvod .proizvod-slika .proizvod-istaknuto {
+ 	position: absolute;
+	z-index: 9;
+	top: 5px;
+	left: 5px;
+	background: url("istaknuto.png") 50% 50% no-repeat;
+	width: 90px;
+	height: 90px;
+	display: block;
+ }
+ 
+   #izabrani-proizvod .izabrani-proizvod .proizvod-slika .proizvod-nedostupno {
+ 	position: absolute;
+	z-index: 9;
+	top: 5px;
+	left: 5px;
+	background: url("nedostupno.png") 50% 50% no-repeat;
+	width: 90px;
+	height: 90px;
+	display: block;
+ }
+ 
+ #izabrani-proizvod .izabrani-proizvod .proizvod-slika {
+ 	padding: 15px;
+	position: relative;
+	width: 100%;
+	display: block;
+	height: auto;
+ }
+ 
+ .proizvodi-naslovna {
+ 	width: clac(100% - 15px) !important;
+	margin-left: 15px !important;
+ }
+ 
+ .btn-sakrij {
+ 	visibility: hidden;
+	position: absolute;
+    top: 56.25%;
+    left: 50%;
+    margin: 0 0 0 -38px;
+    opacity: 0;
+    z-index: 1;
+ }
+ 
+ .polje-proizvod .link:hover  .btn-sakrij {
+ 	visibility: visible;
+	 z-index: 11;
+	 opacity: 1;
+ }
+ 
+  .btn-sakrij:hover  { 
+	background: #FA3D03 !important;
+    border-color: #FA3D03 !important;
+    color: #fff !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+ }
+ 
+ .ubaceno-u-korpu {
+    display: none;
+    visibility: hidden;
+    color: #cc0000;
+    padding: 2px;
+}
+
+#proizvodi h4 {
+	padding: 15px 0 15px 0;
+    font-size: 24px;
+	font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#izabrani-proizvod {
+	margin-top: 30px;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+#izabrani-proizvod .images {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#izabrani-proizvod .precrtano {
+    font-size: 90%;
+    text-decoration: line-through;
+    margin-right: 15px;
+	    color: #999999;
+}
+
+#izabrani-proizvod .cena {
+    font-size: 140%;
+    color: #4EB447;
+    font-weight: 600;
+}
+#izabrani-proizvod .valuta {
+    font-size: 70%;
+}
+
+#izabrani-proizvod #quantity {
+	width: 100px;
+}
+
+#izabrani-proizvod #forma-narucivanje .quantity {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+
+#izabrani-proizvod #forma-narucivanje .add_cart {
+	display: inline;
+	float: left;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+#izabrani-proizvod .izabrani-proizvod-kategorija {
+	margin: 15px 0 15px 0;
+	width: 100%;
+	padding: 15px 0 15px 0;
+}
+
+#izabrani-proizvod-opis {
+	padding-left: 30px;
+	width: calc(100% - 30px);
+}
+
+#izabrani-proizvod-opis h3 {
+	font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #efefef;
+}
+
+
+ 

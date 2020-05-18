@@ -1,0 +1,564 @@
+
+@media only  screen and (max-width: 1408px) {
+
+	#prostor {
+		max-width: calc(100% - 30px);
+	}
+	.polje-desno {
+		width: 100%;
+		float: none;
+	}
+	#levo {
+		margin-right: 340px;
+	}
+	
+	#dole, #potpis {
+		    max-width: calc(100% - 30px);
+	}
+	
+	
+}
+
+
+
+
+@media only  screen and (max-width: 1100px) {
+
+	#glavno {
+		float: none;
+	}
+	
+	#desno, #levo {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		max-width: 960px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	  .polje-desno {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+	}
+	 
+	 #rotacija-levo, #rotacija-desno {
+	 	width: 100%;
+		padding: 0;
+		margin: 0;
+		float: none;
+		max-width: 100%;
+	 }
+	 #rotacija-levo .polje-rotacija-vest {
+	 	min-width: 100%;
+		height: auto;
+	 }
+	 #rotacija-levo {
+	 	margin-bottom: 30px;
+	 }
+	  #rotacija-desno .polje-rotacija-vest {
+	  	    margin: 15px;
+    width: calc(33.33% - 30px);
+    align-items: flex-start;
+    display: block;
+    float: left;
+	  
+	  }
+	 .polje-rotacija-vest1, .polje-rotacija-vest2, .polje-rotacija-vest3 {
+	 	border: 0;
+		border-radius: 5px !important;
+	 }
+	.prelom3 {
+		clear: both;
+	}
+	.prelom2 {
+		clear: none;
+	}
+		
+	#rotacija-desno .polje-rotacija-vest .tekst {
+		position: inherit;
+		bottom: 0;		
+	}
+	
+	#rotacija-desno .polje-rotacija-vest .tekst .kategorija-naziv {
+		text-transform: uppercase;
+		color: #999999 !important;
+		text-decoration: none;
+		font-weight: normal !important;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest p.vreme {
+		font-size: 14px !important;
+		color: #AAAAAA;
+		margin: 10px 0;
+		margin-bottom: 5px !important;
+	}
+	
+	#rotacija-desno h2 a {
+		color: #333333 !important;
+	}
+	#rotacija-desno h2 a:hover {
+		text-decoration: none;
+		color: #4EB447 !important;
+	}
+	
+	#rotacija-levo {
+    margin-bottom: 15px;
+}
+
+ 
+	
+}
+ 
+
+@media only  screen and (min-width: 960px) {
+
+	#myjquerymenu {
+		display: block !important;
+		visibility: visible !important;
+	}
+ 
+	.tabela_korpa num, .tabela_korpa .code, .tabela_korpa .unit, .tabela_korpa .pricing, .tabela_korpa .discount {
+		display: table-cell;
+		visibility: visible;
+	}
+	/*
+	.tabela_korpa .delete {
+		width: 7%;
+	}
+	.tabela_korpa .summary {
+		width: 13%;
+	}
+	.tabela_korpa .discount {
+		width: 9%;
+	} 
+	.tabela_korpa .quantity {
+		width: 10%;
+	}
+	.tabela_korpa .pricing {
+		width: 12%;
+	}
+	.tabela_korpa .unit {
+		width: 5%;
+	}
+	.tabela_korpa .product {
+		width: 40%;
+	}
+	.tabela_korpa .code {
+		width: 1%;
+	}
+	.tabela_korpa .num {
+		width: 4%;
+	}*/
+	
+	.uvuci-rwd-15 {
+		padding: 15px !important;
+	}
+	
+	#all_sum_shopping_cart #tabela_order_sum {
+		width: 35%;
+	}
+	
+}
+
+
+@media only  screen and (max-width: 867px) {
+ 
+	.uvod, .tekst, .tekst-podaci {
+		margin-left: 0 !important;
+	}
+	
+	
+	.polje-desno {
+		width: 100%;
+		float: none;
+	}
+
+	#tagovi {
+		margin-left: 0;
+	}
+	
+	#povezane-vesti {
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	.polje-povezana-vest {
+		margin: 10px;
+		width: calc(33.33% - 20px); 
+	}
+
+	#desno {
+			border-left: 0 !important;
+	}
+	 
+	.copyright, .design {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	 
+	#rotacija-desno .polje-rotacija-vest , #rotacija-desno .polje-rotacija-vest  {
+		margin-bottom: 30px;
+		width: 100%; 
+		margin-left: 0;
+		float: none;
+		clear: both;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest .link , #rotacija-desno .polje-rotacija-vest  .link {	
+	    width: 36%;
+		position: relative;
+		display: block;
+		max-width: 36%;
+		float: left; 
+	}
+	
+	#rotacija-desno .polje-rotacija-vest .tekst , #rotacija-desno .polje-rotacija-vest .tekst  {
+		padding: 0 15px;
+		width: 64%;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding-right: 0;
+		max-width: 64%;
+		float: left;
+		margin-right: 0;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest p.vreme, #rotacija-desno .polje-rotacija-vest p.vreme {
+		margin-top: 0;
+		line-height: normal !important;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest h2.naslov, #rotacija-desno .polje-rotacija-vest h3.naslov, #rotacija-desno  h2, #rotacija-desno  h3 {
+		font-size: 14px;
+	}
+
+	#rotacija-desno .polje-rotacija-vest .tekst {
+		position: initial;
+		margin-right: 0 !important;
+		padding: 0 0 0 15px;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest .tekst .kategorija-naziv {
+		text-transform: uppercase;
+		color: #999999 !important;
+		text-decoration: none;
+		font-weight: normal !important;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest .tekst .kategorija-naziv:hover {
+		text-decoration: underline;
+	}
+	
+	#rotacija-desno .polje-rotacija-vest p.vreme {
+		font-size: 14px !important;
+		color: #AAAAAA;
+		margin: 10px 0;
+		margin-bottom: 5px !important;
+		margin-top: 0;
+		line-height: normal !important;
+	}
+	
+	#rotacija-desno h2 a, #rotacija-desno h3 a {
+		color: #333333 !important;
+	}
+	
+	#rotacija-desno h2 a:hover, #rotacija-desno h3 a:hover {
+		text-decoration: none;
+		color: #4EB447 !important;
+	}
+	
+	#rotacija-levo .polje-rotacija-vest .tekst {
+		margin-left: 30px !important;
+	}
+	
+	.polje-proizvod {
+		width: calc(50% - 30px); 
+	}
+	.prelom2 {
+		clear: both;
+	}
+	.prelom3 {
+		clear: none;
+	}
+	 
+	.tabela_korpa .num, .tabela_korpa .code, .tabela_korpa .unit, .tabela_korpa .pricing, .tabela_korpa .discount {
+		display: none;
+		visibility: hidden;
+	}
+	
+	.tabela_korpa .delete {
+		width: 10% !important;
+	}
+	.tabela_korpa .summary {
+		width: 25% !important;
+	}
+	.tabela_korpa .discount {
+		width: 0% !important;
+	} 
+	.tabela_korpa .quantity {
+		width: 15% !important;
+	}
+	.tabela_korpa .pricing {
+		width: 0% !important;
+	}
+	.tabela_korpa .unit {
+		width: 0% !important;
+	}
+	.tabela_korpa .product {
+		width: 50% !important;
+	}
+	.tabela_korpa .code {
+		width: 0% !important;
+	}
+	.tabela_korpa .num {
+		width: 0% !important;
+	}
+	
+	.uvuci-rwd-15 {
+		padding: 15px 0 !important;
+	}
+	
+	#all_sum_shopping_cart #tabela_order_sum {
+		width: 50%;
+	}
+	
+	#sadrzaj .tekst-podaci {
+	width: 100% !important;
+}
+
+.tekst {
+    margin-right: 0 !important;
+}
+
+.polje-komentari-dugme-desno {
+	padding-bottom: 15px !important;
+	text-align: center !important;
+}
+
+#preporucene-vesti .polje-preporucena-vest {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#izabrani-proizvod-opis {
+    padding-left: 0 !important;
+	padding-right: 0 !important;
+	    width: calc(100% - 0px) !important;
+}
+	
+}
+ 
+
+@media only  screen and (max-width: 667px) {
+
+	.glosa-levo, .glosa-desno {
+		max-width: 100%;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.polje-povezana-vest , .polje-kategorija-vest  {
+	margin-bottom: 30px;
+		width: 100%; 
+    margin-left: 0;
+	float: none;
+	clear: both;
+	}
+	
+	.polje-povezana-vest .link , .polje-kategorija-vest  .link{
+	
+	    width: 36%;
+    position: relative;
+    display: block;
+	max-width: 36%;
+	float: left;
+ 
+	}
+	
+	.polje-povezana-vest .tekst , .polje-kategorija-vest .tekst  {
+		padding: 0 15px;
+    width: 64%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+	padding-right: 0;
+	 max-width: 64%;
+	 float: left;
+	 margin-right: 0;
+	}
+	
+	.polje-povezana-vest p.vreme, .polje-kategorija-vest p.vreme {
+		margin-top: 0;
+		line-height: normal !important;
+	}
+	
+	.polje-kategorija-vest h2.naslov, .polje-kategorija-vest h3.naslov, #kategorija-vesti h2, #kategorija-vesti h3 {
+    font-size: 14px;
+}
+	
+	#komentari {
+		margin-left: 0;
+	}
+	
+	#dole .dole-polje {
+		 
+    float: none;
+    width: calc(100% - 0px);
+	}
+	
+	
+	
+	#rotacija-levo .polje-rotacija-vest h1 {
+		font-size: 24px;
+		
+	}
+	
+	#rotacija-levo .polje-rotacija-vest .tekst {
+		margin-left: 15px !important;
+		bottom: 0;
+	}
+	
+	.polje-proizvod {
+		width: calc(90% - 30px);
+		margin: 0 auto;
+		float: none;	
+	}
+	
+	.prelom2, .prelom3 {
+		clear: both;
+	}
+	
+	.proizvodi-naslovna {
+		width: clac(100% - 0) !important;
+		margin-left: 0 !important;
+	 }
+ 
+    #baner {
+		width: calc(100% - 0px);
+		margin: 15px 0 0 0; 
+		padding: 0; 
+    }
+	
+	#all_sum_shopping_cart #tabela_order_sum {
+		width: 80%;
+	}
+	
+	
+	#rotacija {
+		width: calc(100% + 50px);
+		margin-left: -25px;
+	}
+	
+	#rotacija-desno {
+		width: calc(100% - 50px);
+		margin-left: 25px;
+	}
+	
+	#rotacija-levo h1.naslov {
+		font-size: 18px;
+		line-height: normal;
+		font-weight: 400;
+	}
+	.polje-rotacija-vest .tekst { 
+    	width: calc(100% - 30px);
+	}
+	
+	#zaglavlje{
+	height: auto;
+	
+	}
+	
+	#levo h1, #levo .glavni-tekst h1 {
+		font-size: 32px;
+	}
+	
+	#levo .glavni-tekst h2  {
+		font-size: 28px;
+	}
+
+	#levo .glavni-tekst h3  {
+		font-size: 24px;
+	} 
+	
+	#deljenje-ikonice { 
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 589px) { 
+#curtain .searchform {
+    left: 0;
+	margin-left: 20px;
+	max-width: 80%;
+}
+
+#curtain a.curtainclose {
+    right: 0;
+    margin-right: 10px;
+}
+ 
+
+#all_sum_shopping_cart #tabela_order_sum {
+		width: 100%;
+	}
+
+
+#sadrzaj h1 {
+    padding: 30px 0;
+}
+
+
+#rotacija-levo h1.naslov {
+		font-size: 16px;
+	}
+	
+	.proizvod-opis {
+		padding: 0 !important;
+	}
+	
+	.baner-centar {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+}
+
+@media screen and (max-width: 945px) {
+#curtain .searchform {
+    left: 10%;
+    margin: -40px 0 0 0px;
+	max-width: 70%;
+}
+
+#curtain a.curtainclose {
+    left: auto;
+    margin: -15px 20px 0 0;
+}
+}
+
+@media only  screen and (min-width: 1100px) {
+#all_sum_shopping_cart #tabela_order_sum {
+		width: 30%;
+	}
+
+}
+
+@media only  screen and (max-width: 1408px) and (min-width: 1354px) {
+	#rotacija-levo {
+		max-height: 540px !important;
+	}
+}
+ 
+ 
+
+ 
+
+

@@ -1,0 +1,224 @@
+#desno {
+    float: left;
+    width: 320px;
+    margin-left: -320px;
+    margin-top: 0;
+	margin-bottom: 0;
+	border-left: 1px solid #f1f1f1;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+
+.polje-desno {
+    padding: 30px 0 30px 5px;
+    margin: 0 auto 30px auto;
+	text-align: center;
+	background: #f3f3f3;
+	border-radius: 5px;
+
+ 
+}
+
+.polje-desno img {
+	max-width: 90% !important;
+	height: auto;
+	border: 0;		
+}
+
+h2.naslov-desno {
+    position: relative;
+    overflow: hidden;
+    margin: -15px 15px 15px 15px;
+    padding: 0 0 15px 0;
+    display: block;
+	text-transform: uppercase;
+	font-family: "Exo 2",sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+	text-align: left; 
+    color: #080215;    
+}
+
+#desno a.btn, #desno a.btn:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+.polje-preporucena-vest {
+	margin: 15px;
+    width: calc(100% - 30px);
+	align-items: flex-start;
+	display: block;
+	float: left;
+
+}
+
+.polje-preporucena-vest .slika {
+	padding-bottom: 56.25%;
+ 
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    height: 0;
+	width: 100%;	
+}
+
+.polje-preporucena-vest .link {
+    position: relative;
+    display: block;
+	width: 100%;
+}
+
+
+	
+	.polje-preporucena-vest h4 {
+	font-size: 15px;
+    line-height: 1.25;
+	}
+	
+	.polje-preporucena-vest .tekst {
+		margin-left: 5px;
+	}
+	
+	.polje-preporucena-vest .tekst .kategorija-naziv{
+		text-transform: uppercase;
+		color: #999999 !important;
+		text-decoration: none;
+		font-weight: normal !important;
+	}
+	
+	.polje-preporucena-vest p.vreme {
+		font-size: 14px !important;
+		color: #999999;
+		    margin: 10px 0;
+    margin-bottom: 5px !important;
+	}
+	
+	.polje-preporucena-vest h3.naslov {
+	font-size: 14px;
+	}
+	
+	.polje-preporucena-vest .link  {
+	
+	    width: 32%;
+    position: relative;
+    display: block;
+	max-width: 32%;
+	float: left;
+ 
+	}
+	
+	.polje-preporucena-vest .tekst {
+		padding: 0 15px;
+        width: calc(64% - 0);
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
+	padding-right: 0;
+	 max-width: 64%;
+	 float: left;
+	 text-align: left;
+	 margin-right: 0;
+	}
+	
+	.polje-preporucena-vest p.vreme {
+		margin-top: 0;
+		font-size: 12px;
+		line-height: normal !important;
+	}
+	
+	
+	ul#preporucene-vesti-nav {
+    position: relative;
+    z-index: 1;
+    margin: 0 0 0 0 !important;
+    overflow: hidden;
+}
+	
+	ul#preporucene-vesti-nav>li {
+    padding: 0 0 !important;
+    float: left;
+    margin-right: 0;
+    width: 50%;
+    text-align: center;
+    text-shadow: none;
+    cursor: pointer;
+    background-image: none !important;
+    list-style: none !important;
+    border: 0;
+    border-bottom: 1px solid #4EB447;
+    border-radius: 5px 5px 0 0;
+    /*background-color: #f7f7f7;*/
+}
+	
+	#preporucene-vesti-nav li a {
+	
+    line-height: 15px;
+    font-weight: 600;
+    font-style: normal;
+    color: #222;
+    font-size: 12px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+    text-transform: uppercase;
+    padding: 16px 0 13px 0;
+    display: block;
+}
+
+#preporucene-vesti-nav li.current {
+    color: #fff !important;
+    position: relative;
+    z-index: 6;
+    border-bottom: none;
+    overflow: hidden;
+    border: 1px solid #4EB447;
+    border-bottom: 0;
+}
+
+#preporucene-vesti-nav li.current a {
+  
+    color: #4EB447 !important;
+}
+
+.preporucene-vesti {
+	margin-top: 15px;
+}
+
+#desno ul.prozvod-kategorije {
+    background: none;
+    margin: 0 0 0 0;
+    float: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+#desno ul.prozvod-kategorije>li {
+    padding-left: 30px;
+	text-align: left;
+}
+
+#desno ul.prozvod-kategorije li {
+    padding: 5px 0 5px 30px;
+    margin: 0 0 2px 0;
+    list-style: square;
+    list-style-position: inside;
+}
+
+#desno ul.prozvod-kategorije>li a {
+    padding: 5px 0;
+    display: inline-block;
+}

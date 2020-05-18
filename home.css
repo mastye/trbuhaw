@@ -1,0 +1,248 @@
+
+#kategorija-vesti {
+    border-top: 1px solid #efefef;
+	 
+    float: none;
+    width: calc(100% - 0px);
+ 
+    margin-bottom: 30px;
+    padding: 0 0 15px 0;
+	margin-left: 0;
+}
+
+#kategorija-vesti h2 {
+padding: 0 0 15px 0;
+font-size: 20px; 
+}
+
+#kategorija-vesti h2 a {
+	color: #333333;
+}
+
+#kategorija-vesti h2 a:hover {
+	text-decoration: none;
+	color: #4EB447;
+}
+
+
+.polje-kategorija-vest {
+	margin: 15px;
+    width: calc(50% - 30px);
+	align-items: flex-start;
+	display: block;
+	float: left;
+
+}
+
+.polje-kategorija-vest .slika {
+	padding-bottom: 56.25%;
+ 
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    height: 0;
+	width: 100%;	
+}
+
+.polje-kategorija-vest .link {
+    position: relative;
+    display: block;
+	width: 100%;
+}
+ 
+	
+	.polje-kategorija-vest h4 {
+	font-size: 15px;
+    line-height: 1.25;
+	}
+	
+	.polje-kategorija-vest .tekst {
+		margin-left: 5px;
+	}
+	
+	.polje-kategorija-vest .tekst .kategorija-naziv{
+		text-transform: uppercase;
+		color: #999999 !important;
+		text-decoration: none;
+		font-weight: normal !important;
+	}
+	
+	.polje-kategorija-vest .tekst .kategorija-naziv:hover {
+    text-decoration: underline;
+}
+  
+	.polje-kategorija-vest p.vreme {
+		font-size: 14px !important;
+		color: #AAAAAA;
+		    margin: 10px 0;
+    margin-bottom: 5px !important;
+	}
+	
+	.polje-kategorija-vest h3.naslov {
+	font-size: 14px;
+	}
+	
+	
+	
+	/************************************/
+	
+	
+	#rotacija {
+		border: 0;		 
+		float: none;
+		width: calc(100% - 0px);	 
+		
+		padding: 0;
+		margin: 0;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	
+	#rotacija-glavno {
+	
+	float: left;
+    width: 100%;
+	   padding-bottom: 30px;
+	}
+	#rotacija-levo {
+	
+	 
+	float: left;
+	width: calc(100% - 320px) ;
+	overflow: hidden;
+	}
+	
+	#rotacija-desno {
+	width: 320px;
+	float: right;
+	border-left: 1px solid #ffffff;
+
+	 
+	}
+	
+	
+	
+	#rotacija-desno .polje-rotacija-vest {
+	margin-bottom:  0;
+	position: relative;
+	
+	}
+	
+	#rotacija-levo .polje-rotacija-vest {
+	position: relative;
+		min-width: 960px;
+	}
+	
+	
+	.polje-rotacija-vest {
+	margin: 0;
+    width: calc(100% + 0px);
+	align-items: flex-start;
+	display: block;
+	float: left;
+	position: relative;
+
+
+}
+
+.polje-rotacija-vest .slika {
+	padding-bottom: 56.25%;
+ 
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+    height: 0;
+	width: 100%;	
+}
+
+.polje-rotacija-vest .link {
+    position: relative;
+    display: block;
+	width: 100%;
+}
+ 
+	
+	.polje-rotacija-vest h1 {
+	font-size: 32px;
+    line-height: 1.25;
+	padding: 0 !important;
+	}
+	
+	.polje-rotacija-vest .tekst {
+	 
+		position: absolute;
+		bottom: 15px;
+		left: 0;
+		width: calc(100% - 60px);
+		
+	}
+	
+	.polje-rotacija-vest .tekst .kategorija-naziv{
+		text-transform: uppercase;
+		color: #eeeeee !important;
+		text-decoration: none;
+		font-weight: normal !important;
+	}
+	.polje-rotacija-vest .tekst .kategorija-naziv:hover {
+		text-decoration: underline;
+	}
+	
+	.polje-rotacija-vest p.vreme {
+		font-size: 14px !important;
+		color: #cccccc;
+		    margin: 10px 0;
+    margin-bottom: 5px !important;
+	}
+	
+	.polje-rotacija-vest h1.naslov a, .polje-rotacija-vest h1.naslov a:hover,
+	.polje-rotacija-vest h2.naslov a, .polje-rotacija-vest h2.naslov a:hover {
+		color: #ffffff !important;
+	}
+	
+	.polje-rotacija-vest h2.naslov {
+		margin: 0;
+	}
+	
+	.polje-rotacija-vest1 {
+		border-radius: 0 5px 0 0 !important;
+		border-bottom: 1px solid #ffffff;
+	}
+	.polje-rotacija-vest2 {
+		border-radius: 0 0 0 0 !important;
+		border-bottom: 1px solid #ffffff;
+	}
+	.polje-rotacija-vest3 {
+		border-radius: 0 0 5px 0 !important;
+	}
+	 
+	 
+	.polje-rotacija-vest h2 { 
+	  
+	     font-size: 15px;
+    line-height: 1.3;
+	}
+	
+
+	 
+	
+	.polje-rotacija-vest-desno {
+		margin-left: 15px !important;
+		margin-right: 15px !important;
+	}
+	
+	
+.rotacija-kategorija {
+	width: 100% !important;
+	margin-left: 0;
+	margin-right: 0;
+	min-width: inherit;
+	max-width: 100% !important;
+}
+
+.rotacija-kategorija .polje-rotacija-vest {
+	min-width: 100% !important;
+}

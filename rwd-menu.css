@@ -1,0 +1,176 @@
+@media only  screen and (max-width: 960px) {
+
+
+	.jquerycssmenu {
+		max-width: 100% !important;
+		min-width: 100% !important;
+		width: 100% !important;
+		right: 0 !important;
+		top: 64px !important;
+	}
+	
+	.jquerycssmenu ul,  .jquerycssmenu ul li ul {
+		margin: 0 ;
+		padding: 0;
+		list-style-type: none;
+		float: right; 
+		width: 100%;
+		text-align: left;
+		display: block !important;
+		background: #FFFFFF ;
+		z-index: 99;
+		border: 0;
+		position: relative !important;
+		top: 0 !important;
+		border-radius: 0;
+		height: auto !important;
+		border-top: 0 ;
+		
+	}
+	
+	.jquerycssmenu ul li,  .jquerycssmenu ul li ul li {
+		position: relative;
+		display: block !important;
+		float: left;
+		margin:  0px  ;
+		padding: 1%;
+		z-index:  9;
+		float: left; 
+		width: 100%;
+		border-top: 0 ;
+		border-bottom: 0 ;
+		border-left: 0 ;
+		border-right: 0 ;
+		
+		border-radius: 5px !important; 
+	}
+	
+	.jquerycssmenu ul li:hover, .jquerycssmenu ul li ul li:hover {
+		background: none !important;
+	}
+	
+	.jquerycssmenu ul li a,  .jquerycssmenu ul li ul li a {
+		display: block;
+		margin-right: 0px;
+		margin-left: 0px;
+		padding: 1.1rem ;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		border-bottom-width: 0;
+		color: #4EB447;		 
+		text-decoration: none;
+		font-size: 16px;
+		z-index: 9;
+		text-transform: uppercase;		
+		border-right: 0 ;
+		min-height: 16px;
+		width: 100%;
+		border: 0 !important;
+		padding-right: 0 !important;
+		border: 0 !important;
+		border-radius: 5px !important; 
+	}
+	.jquerycssmenu ul li ul li a {
+	 	width: 100%;
+		padding-left: 4%;
+		padding-right: 4%;
+		background: none;
+		
+	 }
+	 
+	 .jquerycssmenu ul li a:hover, .jquerycssmenu ul li a.selected,  .jquerycssmenu ul li ul li a:hover  {
+		background: #003300;
+		color: #fff !important;
+		text-decoration: none;
+		border-radius: 5px !important;
+		border: 0 !important;
+	}
+	 
+	.jquerycssmenu ul li a.prvi,  .jquerycssmenu ul li ul li a.prvi {
+		border-left: 0px;
+		width: 92%;
+		padding-left: 6%;
+		 
+		/*background: none;*/
+	}
+	
+	.jquerycssmenu ul li.p {
+		border-top: 1px solid #ffffff;
+	}
+	
+	.jquerycssmenu ul li.rwd a, .jquerycssmenu ul li.p a, .jquerycssmenu ul li.p a.prvi  {
+		padding-right: 4% !important;
+		padding-left: 4% !important;
+		width: 100% !important;
+	}
+	
+	.jquerycssmenu ul li ul li.rwd a, .jquerycssmenu ul li ul li.p a,  .jquerycssmenu ul li ul li.p a.prvi {
+		padding-right: 4% !important;
+		padding-left: 4% !important;
+		width: 100% !important;
+	}
+		 
+	#myjquerymenu {
+		display: none ;
+		visibility: hidden   ;
+		 
+	}
+	
+	.rwd {
+		display: inline  !important;
+		visibility: visible  !important;
+	}
+	 
+	#click-menu {
+		display: block !important;
+		visibility: visible !important;
+		padding: 6px !important;
+		margin: 0 auto 0 auto;
+		z-index: 99; 
+		width: 100% !important;
+	}
+		
+	.main-menu {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		height: 44px;
+		background: #191919 ;
+		
+	}
+	
+	.jquerycssmenu ul li ul {
+		top: 0px !important;
+		display: none !important;
+		visibility: hidden !important;
+		height: auto !important;
+		border: 0  !important;
+	}
+	 
+}
+
+
+@media only screen and (min-width: 861px)   {
+/*
+    #myjquerymenu {
+		display: block  !important;
+		visibility: visible   !important ;
+		min-width: 100% !important;  
+	}*/
+	
+	.jquerycssmenu ul li ul {
+		border-radius: 0;
+	}
+
+	 
+
+
+}
+
+
+@media only  screen and (min-width: 981px)  {
+
+	 
+	
+
+}
